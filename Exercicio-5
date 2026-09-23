@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    float media, frequencia;
+
+    printf("Digite a media: ");
+    scanf("%f", &media);
+
+    printf("Digite a frequencia: ");
+    scanf("%f", &frequencia);
+
+    if (media >= 6 && frequencia >= 75)
+    {
+        printf("Aluno aprovado.\n");
+    }
+    else
+    {
+        printf("Aluno reprovado.\n");
+    }
+
+    return 0;
+}
